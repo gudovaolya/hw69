@@ -1,0 +1,36 @@
+.dish{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #0fc0c8;
+    overflow: hidden;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+@media screen and (min-width: 840px) {
+    .dish{
+        width: 49%;
+    }
+}
+.dish-pic{
+    width: 100px;
+    padding: 3px;
+    border: 1px solid #0fc0c8;
+    float: left;
+}
+.dish-pic img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.dish-info{
+    margin: 0 0 0 110px;
+}
+.dish-info h4{
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #8b0000;
+}
+.dish button{
+    margin: 10px 0;
+}

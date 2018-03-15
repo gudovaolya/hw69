@@ -1,0 +1,17 @@
+.cart{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #0fc0c8;
+}
+.cart h3{
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #8b0000;
+}
+.cart-price{
+    text-align: left;
+    margin: 20px 0;
+}
+.cart-price p{
+    margin: 0 0 5px;
+}

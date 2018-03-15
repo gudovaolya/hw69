@@ -1,0 +1,10 @@
+.form{
+    padding: 10px;
+}
+.form-row{
+    padding: 0 0 15px;
+}
+.form-row input{
+    width: 100%;
+    padding: 4px;
+}
