@@ -56,10 +56,10 @@ class Dishes extends Component {
         event.preventDefault();
         const dishesToOrder = {};
         Object.keys(this.props.dishesInCart).map(dishId => {
-            dishesToOrder[dishId] = {
+            return (dishesToOrder[dishId] = {
                 'title': this.props.dishesInCart[dishId].title,
                 'amoiunt': this.props.dishesInCart[dishId].amount
-            };
+            });
         });
         const order = {
             dishes: dishesToOrder,
